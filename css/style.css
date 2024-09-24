@@ -10,7 +10,6 @@
 * 	Template Style 
 *
 * ======================================================= */
-/* NOVO */
 /* Estilização dos links de navegação */
 .navigation-links {
   display: flex; /* Flexbox para distribuir os botões */
@@ -35,7 +34,8 @@
   background-color: #fff; /* Cor de fundo branca ao passar o mouse */
   color: #000; /* Cor do texto preta ao passar o mouse */
 }
-/* ======================================================= */
+
+/* Antigo */
 body {
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
@@ -43,6 +43,12 @@ body {
   line-height: 1.7;
   color: #4d4d4d;
   background: #fff;
+}
+
+#lang-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 #page {
@@ -102,12 +108,12 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-moz-selection {
   color: #fff;
-  background: #FF9000;
+  background: rgba(0, 140, 255, 0.9);
 }
 
 ::selection {
   color: #fff;
-  background: #FF9000;
+  background: rgba(0, 140, 255, 0.9);
 }
 
 #fh5co-header,
@@ -286,7 +292,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #FF9000 !important;
+  color: rgba(0, 140, 255, 0.9) !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -394,7 +400,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #FF9000;
+  color: rgba(0, 140, 255, 0.9);
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -830,7 +836,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 54px;
   border: none !important;
   background: #fff;
-  color: #FF9000;
+  color: rgba(0, 140, 255, 0.9);
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1140,9 +1146,9 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: #FF9000;
+  background: rgba(0, 140, 255, 0.9);
   color: #fff;
-  border: 2px solid #FF9000;
+  border: 2px solid rgba(0, 140, 255, 0.9);
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #ff9b1a !important;
@@ -1150,11 +1156,11 @@ input[type="text"] {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #FF9000;
-  border: 2px solid #FF9000;
+  color: rgba(0, 140, 255, 0.9);
+  border: 2px solid rgba(0, 140, 255, 0.9);
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #FF9000;
+  background: rgba(0, 140, 255, 0.9);
   color: #fff;
 }
 
@@ -1318,4 +1324,5 @@ input[type="text"] {
 .js .animate-box {
   opacity: 0;
 }
+
 /*# sourceMappingURL=style.css.map */
