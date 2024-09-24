@@ -257,8 +257,11 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 7em 0;
 }
 #fh5co-features .feature-left {
-  margin-bottom: 40px;
-  float: left;
+  display: flex;
+  flex-direction: column; /* Alinha os ícones e textos verticalmente */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  text-align: center; /* Centraliza o texto */
+  margin-bottom: 30px; /* Espaçamento entre os itens */
 }
 @media screen and (max-width: 992px) {
   #fh5co-features .feature-left {
