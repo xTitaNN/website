@@ -10,6 +10,32 @@
 * 	Template Style 
 *
 * ======================================================= */
+/* NOVO */
+/* Estilização dos links de navegação */
+.navigation-links {
+  display: flex; /* Flexbox para distribuir os botões */
+  justify-content: center; /* Centraliza o conteúdo */
+  align-items: center; /* Centraliza verticalmente */
+  gap: 30px; /* Espaço entre os botões */
+  margin-top: 20px; /* Espaço superior */
+}
+
+.navigation-links a {
+  font-size: 18px; /* Tamanho da fonte */
+  color: #fff; /* Cor branca para o texto */
+  text-decoration: none; /* Remove sublinhado */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: 2px solid #fff; /* Borda branca ao redor dos links */
+  border-radius: 5px; /* Bordas arredondadas */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+}
+
+/* Efeito hover nos links de navegação */
+.navigation-links a:hover {
+  background-color: #fff; /* Cor de fundo branca ao passar o mouse */
+  color: #000; /* Cor do texto preta ao passar o mouse */
+}
+/* ======================================================= */
 body {
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
@@ -1288,30 +1314,5 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0;
-}
-/* NOVO */
-/* Estilização dos links de navegação */
-.navigation-links {
-  display: flex; /* Flexbox para distribuir os botões */
-  justify-content: center; /* Centraliza o conteúdo */
-  align-items: center; /* Centraliza verticalmente */
-  gap: 30px; /* Espaço entre os botões */
-  margin-top: 20px; /* Espaço superior */
-}
-
-.navigation-links a {
-  font-size: 18px; /* Tamanho da fonte */
-  color: #fff; /* Cor branca para o texto */
-  text-decoration: none; /* Remove sublinhado */
-  padding: 10px 20px; /* Espaçamento interno */
-  border: 2px solid #fff; /* Borda branca ao redor dos links */
-  border-radius: 5px; /* Bordas arredondadas */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
-}
-
-/* Efeito hover nos links de navegação */
-.navigation-links a:hover {
-  background-color: #fff; /* Cor de fundo branca ao passar o mouse */
-  color: #000; /* Cor do texto preta ao passar o mouse */
 }
 /*# sourceMappingURL=style.css.map */
