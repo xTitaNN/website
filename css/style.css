@@ -248,7 +248,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: #FF9000;
+  background: rgba(0, 140, 255, 0.9);
 }
 #fh5co-features h2 {
   color: #fff;
