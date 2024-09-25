@@ -10,29 +10,38 @@
 * 	Template Style 
 *
 * ======================================================= */
-/* Estilização dos links de navegação */
-.navigation-links {
-  display: flex; /* Flexbox para distribuir os botões */
-  justify-content: center; /* Centraliza o conteúdo */
-  align-items: center; /* Centraliza verticalmente */
-  gap: 30px; /* Espaço entre os botões */
-  margin-top: 20px; /* Espaço superior */
+html {
+  scroll-behavior: smooth;
+}
+/* Sidebar fixa no lado direito e centralizada verticalmente */
+.sidebar {
+  height: 100vh; /* Altura da tela */
+  width: 250px; /* Largura da sidebar */
+  position: fixed; /* Fixa no lado direito */
+  top: 50%; /* Centraliza verticalmente */
+  right: 0; /* Fixa no lado direito */
+  transform: translateY(-50%); /* Move a sidebar para o centro vertical */
+  display: flex;
+  flex-direction: column; /* Alinha os links verticalmente */
+  justify-content: center; /* Centraliza os links dentro da sidebar */
+  background-color: transparent; /* Remover cor de fundo */
+  z-index: 10;
 }
 
-.navigation-links a {
-  font-size: 18px; /* Tamanho da fonte */
-  color: #fff; /* Cor branca para o texto */
-  text-decoration: none; /* Remove sublinhado */
-  padding: 10px 20px; /* Espaçamento interno */
-  border: 2px solid #fff; /* Borda branca ao redor dos links */
-  border-radius: 5px; /* Bordas arredondadas */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+/* Estilo dos links */
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #333; /* Cor do texto escura */
+  display: block;
+  text-align: center; /* Centraliza o texto dentro dos links */
+  transition: 0.3s;
 }
 
-/* Efeito hover nos links de navegação */
-.navigation-links a:hover {
-  background-color: #fff; /* Cor de fundo branca ao passar o mouse */
-  color: #000; /* Cor do texto preta ao passar o mouse */
+/* Efeito hover */
+.sidebar a:hover {
+  background-color: #f0f0f0; /* Cor leve ao passar o mouse */
 }
 
 /* Antigo */
